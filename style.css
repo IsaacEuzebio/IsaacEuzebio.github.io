@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+header figure.logo img {
+    width: 100px;
+    height: 120px;
+}
+
+header figure.logo {
+    margin-right: 80px;
+}
+
+header nav.navbar ul {
+    display: flex;
+    gap: 15px;
+}
+
+header nav.navbar ul a li {
+    transition: 0.2s;
+}
+
+header nav.navbar ul a li:hover {
+    transform: scale(1.02);
+    color: red;
+}
+
+header nav.navbar ul li {
+    list-style: none;
+    color: black;
+}
+
+header nav.navbar a {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+main .vendas {
+    height: 300px;
+    width: 300px;
+    background-color: beige;
+    
+}
+
